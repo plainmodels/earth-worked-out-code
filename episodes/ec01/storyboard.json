@@ -1,0 +1,411 @@
+{
+ "episode": "ec01",
+ "title": "How Fast Would You Need to Run to Escape a Tsunami?",
+ "voice": "af_bella",
+ "lang": "en-us",
+ "speed": 0.95,
+ "gap": 0.6,
+ "tail": 11,
+ "beats": [
+  {
+   "id": "b01",
+   "chapter": "",
+   "scene": "racestrip",
+   "p": {
+    "who": [
+     1,
+     2,
+     4
+    ],
+    "metres": 400,
+    "speedup": 2
+   },
+   "text": "The water has just reached the beach. You are standing at the edge of it, and you start running. How fast do you have to be? I built a simulation of the ocean, the shore and the land to find out. A jogger is overtaken almost at once. So is someone running hard. Only one runner here stays ahead, and he is running at the top speed of Usain Bolt.",
+   "visual": "top-down race from the simulation",
+   "sfx": [
+    [
+     0.7,
+     "hit"
+    ]
+   ]
+  },
+  {
+   "id": "b02",
+   "chapter": "",
+   "scene": "statement",
+   "p": {
+    "lines": [
+     "Once the water is on the beach,",
+     "the race is already lost.",
+     "The real race starts earlier."
+    ],
+    "accent": [
+     2
+    ]
+   },
+   "text": "Once the water is on the beach, the race is already lost. The real race starts much earlier, and in this video we will find out where. Every number comes from a simulation I wrote and ran, and you can run it yourself.",
+   "visual": "the thesis"
+  },
+  {
+   "id": "b03",
+   "chapter": "",
+   "scene": "title",
+   "p": {
+    "title": [
+     "How fast would you need",
+     "to run from a tsunami?"
+    ],
+    "sub": "a simulation of the ocean, the shore and the land"
+   },
+   "text": "How fast would you need to run to escape a tsunami?",
+   "visual": "title card",
+   "sfx": [
+    [
+     0.1,
+     "hit"
+    ]
+   ]
+  },
+  {
+   "id": "b04",
+   "chapter": "In this video",
+   "scene": "bullets",
+   "p": {
+    "head": "We will find out",
+    "items": [
+     "Why a tsunami crosses the ocean at the speed of a jet",
+     "Why it grows taller as it slows down",
+     "The race: you against the water, metre by metre",
+     "Where your head start really comes from"
+    ]
+   },
+   "text": "We will find out why a tsunami crosses the ocean at the speed of a jet, why it grows taller as it slows down, how the race between you and the water actually goes, metre by metre, and where your head start really comes from.",
+   "visual": "what this video covers"
+  },
+  {
+   "id": "b05",
+   "chapter": "1 · The model",
+   "scene": "seaprofile",
+   "p": {
+    "snap": 0,
+    "head": "the model's ocean, 230 km across · seabed to scale · wave height exaggerated 40×"
+   },
+   "text": "First, the model. This is a slice through an ocean, two hundred and thirty kilometres from the open sea to dry land. The deep ocean is four kilometres deep. Then the continental slope climbs to a shelf about a hundred metres deep, the shelf runs for sixty kilometres, and a gentle beach rises onto land. It is idealised, not a real coast, but every part of it is typical of real ones.",
+   "visual": "the ocean profile"
+  },
+  {
+   "id": "b06",
+   "chapter": "1 · The model",
+   "scene": "equation",
+   "p": {
+    "label": "the equations the simulation solves",
+    "eq": "water in = water out",
+    "where": [
+     "plus: push from the slope of the water surface",
+     "minus: friction with the seabed and the ground"
+    ],
+    "foot": "the same rules from the deep ocean to dry land"
+   },
+   "text": "The simulation solves the shallow-water equations. They sound complicated, but they say something simple: water is never created or destroyed, and it is pushed by the slope of its own surface, while the seabed drags on it. The same rules work over four kilometres of water, over a beach, and over land that is dry until the wave arrives.",
+   "visual": "the model in words"
+  },
+  {
+   "id": "b07",
+   "chapter": "2 · Jet speed",
+   "scene": "seaprofile",
+   "p": {
+    "from": 0.0,
+    "to": 0.95
+   },
+   "text": "Into this ocean I put a single wave: a crest two metres high and about a hundred kilometres long. That is a big tsunami, but in the deep ocean it is barely a bump: two metres of height spread over a hundred kilometres. Watch how fast it goes. It covers the deep ocean in minutes, and then it runs into the slope.",
+   "visual": "the wave crossing the ocean",
+   "sfx": [
+    [
+     0.3,
+     "tick"
+    ]
+   ]
+  },
+  {
+   "id": "b08",
+   "chapter": "2 · Jet speed",
+   "scene": "speedbars",
+   "p": {},
+   "text": "Here is what the simulation measured. Over four kilometres of water, the crest moved at 710 kilometres an hour. That is airliner speed. Over the shelf it slowed to about a hundred, and in the last twenty metres of water, to 36 kilometres an hour. The black ticks are a one-line formula: the square root of gravity times the depth. The simulation and the formula agree.",
+   "visual": "speed against depth"
+  },
+  {
+   "id": "b09",
+   "chapter": "2 · Jet speed",
+   "scene": "quote",
+   "p": {
+    "lines": [
+     "The speed of tsunami waves depends on ocean depth",
+     "rather than the distance from the source of the wave."
+    ],
+    "hl": [
+     0
+    ],
+    "src": "NOAA National Ocean Service, “What is a tsunami?”",
+    "src_short": "NOAA",
+    "foot": "deep water: as fast as a jet plane"
+   },
+   "text": "This is not a quirk of my model. NOAA, the United States ocean agency, puts it plainly: the speed of a tsunami depends on the depth of the ocean, not on how far it has come. Over deep water, it says, a tsunami can travel as fast as a jet plane.",
+   "visual": "NOAA on tsunami speed"
+  },
+  {
+   "id": "b10",
+   "chapter": "3 · Slower, taller",
+   "scene": "shoal",
+   "p": {
+    "foot": "from 2 m in the deep ocean to 5.8 m at the beach"
+   },
+   "text": "And as the wave slows, it grows. The same water that was two metres high in the deep ocean was 4.4 metres high at the edge of the shelf, and 5.8 metres at the beach. The energy that was spread through four kilometres of water is squeezed into a few metres, and the back of the wave, still in deeper water and still moving faster, catches up with the front.",
+   "visual": "height against place"
+  },
+  {
+   "id": "b11",
+   "chapter": "3 · Slower, taller",
+   "scene": "shore",
+   "p": {
+    "t0": 2900,
+    "t1": 3330,
+    "head": "the last 10 km of sea and the first 2.5 km of land · heights exaggerated 50×"
+   },
+   "text": "Here is the last ten kilometres, closer up. The wave arrives as a rising wall of water, much steeper than it was at sea. And it does not stop at the shoreline. Unlike an ordinary wave, which breaks and slides back, a tsunami is a hundred kilometres long. There is so much water behind the front that it simply keeps coming, onto the land.",
+   "visual": "the wave reaching the coast"
+  },
+  {
+   "id": "b12",
+   "chapter": "4 · On land",
+   "scene": "shore",
+   "p": {
+    "t0": 3080,
+    "t1": 3520,
+    "mark": true,
+    "head": "the flood on land, second by second · heights exaggerated 50×"
+   },
+   "text": "On land, the front of the water moved at about 30 kilometres an hour over the first five hundred metres. It reached a kilometre inland in 2 minutes and 25 seconds. It slowed as it climbed, and stopped 1,662 metres from the shoreline, at a height of 8.4 metres above sea level.",
+   "visual": "the flood running inland",
+   "sfx": [
+    [
+     0.4,
+     "hit"
+    ]
+   ]
+  },
+  {
+   "id": "b13",
+   "chapter": "4 · On land",
+   "scene": "statement",
+   "p": {
+    "lines": [
+     "30 km/h over the first 500 m.",
+     "1,662 m inland.",
+     "8.4 m above sea level."
+    ],
+    "accent": [
+     0
+    ]
+   },
+   "text": "That first number matters most. 30 kilometres an hour is faster than most people can run at all, and it is the speed of the water at exactly the moment you would start running.",
+   "visual": "the three numbers"
+  },
+  {
+   "id": "b14",
+   "chapter": "5 · The race",
+   "scene": "racechart",
+   "p": {
+    "who": [
+     0,
+     1,
+     2,
+     4
+    ],
+    "tmax": 300
+   },
+   "text": "So, the race. Here is the water's front, metre by metre, against time. And here are four people who start running from the water's edge the moment it arrives: someone walking briskly, someone jogging, someone running hard, and someone running at Usain Bolt's top speed. The walker, the jogger and the hard runner are all overtaken within a second or two. Only the Bolt line stays above the water.",
+   "visual": "the race chart"
+  },
+  {
+   "id": "b15",
+   "chapter": "5 · The race",
+   "scene": "racestrip",
+   "p": {
+    "who": [
+     1,
+     2,
+     3
+    ],
+    "start": 100,
+    "metres": 600,
+    "speedup": 3,
+    "head": "the same race, but you start 100 m up the beach · from the simulation"
+   },
+   "text": "Give yourself a hundred metres. You are up the beach when the water reaches the shoreline. Now the jogger is caught after 17 seconds. The hard runner lasts 29 seconds. Even a sprinter at twenty-five kilometres an hour is caught after about a minute, half a kilometre inland.",
+   "visual": "a 100 metre start"
+  },
+  {
+   "id": "b16",
+   "chapter": "5 · The race",
+   "scene": "quote",
+   "p": {
+    "lines": [
+     "He could keep the maximum velocity",
+     "in five 10 m sections (50–100 m)."
+    ],
+    "hl": [
+     0
+    ],
+    "src": "Štuhec et al., Bioengineering (2023), analysis of Bolt's 9.58 s world record",
+    "src_short": "the fastest human",
+    "foot": "peak: 12.32 m/s, about 44 km/h, for about 50 metres"
+   },
+   "text": "And that one runner who escapes? A detailed analysis of Usain Bolt's world record measured his top speed at twelve point three metres a second, about forty-four kilometres an hour, and found he held it for about fifty metres. The water here keeps going for more than a kilometre and a half. Nobody can outrun it from the beach.",
+   "visual": "the limits of the fastest human"
+  },
+  {
+   "id": "b17",
+   "chapter": "5 · The race",
+   "scene": "headstart",
+   "p": {
+    "foot": "the head start is the whole game"
+   },
+   "text": "So the real question is how much of a head start you need. Starting from the water's edge, to stay ahead of the water all the way to where it stops, a sprinter needs 16 seconds. A hard runner, 42. A jogger, 4 minutes and 16 seconds. Someone walking needs 13 minutes and 24 seconds.",
+   "visual": "head start needed"
+  },
+  {
+   "id": "b18",
+   "chapter": "6 · The head start",
+   "scene": "drawback",
+   "p": {
+    "foot": "in this run the sea drew back for about 6 minutes before the water returned"
+   },
+   "text": "Where does a head start come from? Sometimes the ocean gives you one. I ran the model again with a trough arriving first instead of a crest. Before the wave arrived, the sea drained away from the beach, 88 metres in this run, and it stayed out for about 6 minutes before the water came back and flooded the land.",
+   "visual": "the sea drawing back",
+   "sfx": [
+    [
+     0.6,
+     "hit"
+    ]
+   ]
+  },
+  {
+   "id": "b19",
+   "chapter": "6 · The head start",
+   "scene": "quote",
+   "p": {
+    "lines": [
+     "…drains away suddenly, showing the ocean floor",
+     "like a very low tide… a tsunami is possible",
+     "and could arrive within minutes."
+    ],
+    "hl": [
+     0,
+     2
+    ],
+    "src": "US National Weather Service, “During a Tsunami”",
+    "src_short": "official guidance",
+    "foot": "natural warnings: a strong or long earthquake, the sea drawing back, a loud roar"
+   },
+   "text": "That is one of the natural warnings the US National Weather Service lists. A strong or long earthquake, the ocean draining away and showing the sea floor, or a loud roar from the sea: any of these means a tsunami is possible and could arrive within minutes. Its advice is not to wait for an official warning.",
+   "visual": "the official natural warnings"
+  },
+  {
+   "id": "b20",
+   "chapter": "6 · The head start",
+   "scene": "statement",
+   "p": {
+    "lines": [
+     "In this model the wave took 52 minutes",
+     "to cross 160 km of ocean.",
+     "Near the source, there is far less time."
+    ],
+    "accent": [
+     2
+    ],
+    "sub": "warning time depends on how far away the earthquake is"
+   },
+   "text": "The other head start is distance. In this model the wave took 52 minutes to cross a hundred and sixty kilometres of ocean, and warning centres use that time to send alerts. But when the earthquake is close to the coast, the water can arrive in minutes, which is why the shaking itself is the warning.",
+   "visual": "warning time"
+  },
+  {
+   "id": "b21",
+   "chapter": "7 · Up, not only away",
+   "scene": "shore",
+   "p": {
+    "t0": 3300,
+    "t1": 3520,
+    "mark": true,
+    "head": "how high the water reached, compared with how far · heights exaggerated 50×"
+   },
+   "text": "One more thing the simulation shows. The water reached 1,662 metres inland, but only 8.4 metres up. On a gentle coast, going up can be much quicker than going away. The official advice says the same: go as high or as far inland as you can, and follow the evacuation signs.",
+   "visual": "height versus distance"
+  },
+  {
+   "id": "b22",
+   "chapter": "7 · Up, not only away",
+   "scene": "quote",
+   "p": {
+    "lines": [
+     "The first wave may not be",
+     "the last or the largest."
+    ],
+    "hl": [
+     0,
+     1
+    ],
+    "src": "US National Weather Service, “During a Tsunami”",
+    "src_short": "official guidance"
+   },
+   "text": "And once you are safe, stay there. The Weather Service is blunt about it: the first wave may not be the last, or the largest, and the danger can last for hours.",
+   "visual": "the first wave is not the last"
+  },
+  {
+   "id": "b23",
+   "chapter": "7 · Up, not only away",
+   "scene": "bullets",
+   "p": {
+    "head": "Limits",
+    "numbered": true,
+    "items": [
+     "One idealised coast, in one dimension",
+     "One wave; real tsunamis are trains of waves",
+     "Real bays, rivers and buildings change everything"
+    ]
+   },
+   "text": "Limits. This is one idealised coast, simulated in one dimension, so it cannot show bays that focus the water, or rivers that carry it far inland. It uses one wave, where real tsunamis are a train of waves. And real towns, with buildings and debris, change how the water moves. The numbers show the shape of the problem, not a forecast for any real beach.",
+   "visual": "limits"
+  },
+  {
+   "id": "b24",
+   "chapter": "Three things",
+   "scene": "bullets",
+   "p": {
+    "head": "Three things",
+    "numbered": true,
+    "items": [
+     "On land the water moves at about 30 km/h at first",
+     "From the beach, you cannot outrun it",
+     "Strong shaking or a vanishing sea: go up or inland, now"
+    ]
+   },
+   "text": "Three things. One: on land, the water moved at about 30 kilometres an hour at first, faster than nearly anyone can run. Two: from the beach, you cannot outrun it; the race is won or lost before the water arrives. Three: strong shaking, or a sea that suddenly drains away, means go up or inland, now, without waiting to be told.",
+   "visual": "three points"
+  },
+  {
+   "id": "b25",
+   "chapter": "",
+   "scene": "endcard",
+   "p": {
+    "next_label": "Next on Earth Worked Out",
+    "next": [
+     "Why hurricanes never",
+     "cross the equator"
+    ]
+   },
+   "text": "This is Earth Worked Out: real physics, run on screen. The simulation code is linked below. Next time: why hurricanes never cross the equator.",
+   "visual": "end card with space for YouTube end-screen elements"
+  }
+ ]
+}

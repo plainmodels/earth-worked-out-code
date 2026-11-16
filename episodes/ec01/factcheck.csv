@@ -1,0 +1,18 @@
+id,beat,claim,evidence,source,status
+1,"b01,b14","From the water's edge, walker/jogger/hard runner are overtaken within 1-2 s; only Bolt's top speed stays ahead","race.py on the simulated flood front: caught after ~1 s for 5, 10, 20 and 25 km/h; 44.4 km/h never caught",experiments/ec01-tsunami/race.json,OBSERVED (model)
+2,b05,"Model ocean: 230 km slice, 4,000 m deep, continental slope to ~100 m shelf, 60 km shelf, 1 in 100 beach, land at 1 in 200","tsunami.py bed() definition; idealised, stated as not a real coast",experiments/ec01-tsunami/tsunami.py,BY CONSTRUCTION
+3,b06,"Shallow-water equations: mass conservation, pressure gradient from surface slope, seabed friction (Manning n = 0.025); wetting and drying",tsunami.py (HLL finite-volume with hydrostatic reconstruction),experiments/ec01-tsunami/tsunami.py,BY CONSTRUCTION
+4,b07,"A single crest 2 m high, about 100 km long",tsunami.py A = 2.0 m; LAM = 100 km,experiments/ec01-tsunami/tsunami.py,BY CONSTRUCTION
+5,b08,"Crest speed: 710 km/h over 4,000 m (theory 703); about 100 km/h over the shelf; 36 km/h in the last 20 m (theory 38); agreement with sqrt(g*h)",results.json crest_speed_vs_theory binned in build_data.py,experiments/ec01-tsunami/results.json,OBSERVED (model) + GENERAL KNOWLEDGE (formula)
+6,b09,"NOAA: speed depends on ocean depth rather than distance from source; as fast as jet planes over deep water","NOAA NOS 'What is a tsunami?', read 2026-11-16 (last updated 09/23/26)",oceanservice.noaa.gov/facts/tsunami.html,VERIFIED
+7,b10,"Wave height: 2.0 m deep ocean, 4.4 m at shelf edge, 5.8 m at the beach",results.json gauge maxima,experiments/ec01-tsunami/results.json,OBSERVED (model)
+8,b12-b13,"Flood front about 30 km/h over the first 500 m; 1 km inland in 2 min 25 s; stopped 1,662 m inland at 8.4 m above sea level",race.json front_profile; results.json max_inland_m and max_runup_m,experiments/ec01-tsunami/,OBSERVED (model)
+9,b15,"Starting 100 m up the beach: jogger caught after 17 s, hard runner after 29 s, sprinter (25 km/h) after about 59 s at 512 m",race.json from_100m,experiments/ec01-tsunami/race.json,OBSERVED (model)
+10,b16,"Bolt's top speed in the 9.58 s record: 12.32 m/s (about 44 km/h), held in five 10 m sections (50-100 m)","Stuhec et al., Bioengineering 10(11):1254 (2023), quoted; other analyses give 12.42 m/s",doi.org/10.3390/bioengineering10111254,VERIFIED
+11,b17,"Head start needed from the water's edge: sprinter 16 s, hard runner 42 s, jogger 4 min 16 s, walker 13 min 24 s",race.json from_0m,experiments/ec01-tsunami/race.json,OBSERVED (model)
+12,b18,"Trough-first run: sea drew back 88 m, stayed out about 6 minutes before flooding the land",results_trough.json shoreline series,experiments/ec01-tsunami/results_trough.json,OBSERVED (model)
+13,b19,"NWS natural warnings: strong or long earthquake, ocean draining away showing the floor, loud roar; tsunami could arrive within minutes; do not wait for an official warning","NWS 'During a Tsunami', read 2026-11-16, quoted",weather.gov/safety/tsunami-during,VERIFIED
+14,b20,"Model wave took 52 minutes to cross 160 km",results.json: start 40 km offshore position, landfall at 3,092 s,experiments/ec01-tsunami/results.json,OBSERVED (model)
+15,b21,"NWS: go as high or as far inland (away from the water) as possible; follow evacuation signs",NWS 'During a Tsunami',weather.gov/safety/tsunami-during,VERIFIED
+16,b22,"NWS: the first wave may not be the last or the largest; danger may last hours",NWS 'During a Tsunami',weather.gov/safety/tsunami-during,VERIFIED
+17,b23,"Limits: 1D idealised coast, one wave, no bays, rivers or buildings; not a forecast",-,-,LIMIT STATED
