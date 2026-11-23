@@ -1,0 +1,562 @@
+{
+ "episode": "ec02",
+ "title": "Why Hurricanes Never Cross the Equator",
+ "voice": "am_michael",
+ "lang": "en-us",
+ "speed": 0.95,
+ "gap": 0.6,
+ "tail": 11,
+ "beats": [
+  {
+   "id": "b01",
+   "chapter": "",
+   "scene": "trackmap",
+   "p": {
+    "reveal": true,
+    "from": 0.03,
+    "to": 0.75,
+    "glow": 0.8
+   },
+   "text": "This is every tropical storm on record. 8,457 of them, from 1851 to this month, one line each, drawn from NOAA's global archive. They fill the oceans on both sides of the planet. Now look at the line in the middle.",
+   "visual": "all storm tracks drawn in, oldest first; the equator glows at the end"
+  },
+  {
+   "id": "b02",
+   "chapter": "",
+   "scene": "trackmap",
+   "p": {
+    "band": true,
+    "cross": 0.3,
+    "note": null
+   },
+   "text": "That is the equator. Storms come close to it. Not one is recorded crossing it. I checked every record in the archive: 13,635 storm systems, weak ones included, and not a single one has a position on both sides of the line.",
+   "visual": "the map again with a band of 5 degrees either side; 'crossing the equator: 0'"
+  },
+  {
+   "id": "b03",
+   "chapter": "",
+   "scene": "title",
+   "p": {
+    "title": [
+     "Why hurricanes never",
+     "cross the equator"
+    ],
+    "sub": "the record, a spinning-planet simulation, and the storm that came within 78 km"
+   },
+   "text": "There is no wall there. So why does nothing cross?",
+   "visual": "title card"
+  },
+  {
+   "id": "b04",
+   "chapter": "In this video",
+   "scene": "bullets",
+   "p": {
+    "head": "We will find out",
+    "items": [
+     "Where a hurricane's spin comes from",
+     "Why the equator has none to give",
+     "What a simulation does with a dip in the air",
+     "The storm that came within 78 km"
+    ]
+   },
+   "text": "We will find out where a hurricane's spin comes from, why the equator has none to give, what a simulation of a spinning planet does with a simple dip in the air, and what happened to the storm that came within 78 kilometres of the line.",
+   "visual": "four bullets"
+  },
+  {
+   "id": "b05",
+   "chapter": "1 · The record",
+   "scene": "vhist",
+   "p": {},
+   "text": "Start with the record. For every storm, I found the place where it first became a tropical storm, with winds of at least 34 knots, about 63 kilometres an hour. Two thirds start between 10 and 20 degrees from the equator. Close to the equator, the bars almost vanish. Only 40 of 8,457 storms started within 5 degrees of it.",
+   "visual": "histogram of formation latitude; the bars within 5 degrees in red"
+  },
+  {
+   "id": "b06",
+   "chapter": "1 · The record",
+   "scene": "quote",
+   "p": {
+    "lines": [
+     "The textbooks say that cyclones such as hurricanes",
+     "don't form within 300 kilometers",
+     "(about 186 miles) of the equator."
+    ],
+    "hl": [
+     1
+    ],
+    "src": "NASA Earth Observatory, “A Rare Cyclone on the Equator” (2003)",
+    "src_short": "NASA",
+    "foot": "in the record: 6 storms started within 3 degrees"
+   },
+   "text": "NASA puts the textbook rule like this: hurricanes don't form within 300 kilometres of the equator. In the archive, only 6 storms started within 3 degrees, about 330 kilometres, and none of them crossed. So something near the equator stops storms from starting, and stops them from going over.",
+   "visual": "NASA quote card"
+  },
+  {
+   "id": "b07",
+   "chapter": "2 · Borrowed spin",
+   "scene": "equation",
+   "p": {
+    "label": "where a storm's spin comes from",
+    "eq": "f = 2 Ω sin(latitude)",
+    "where": [
+     "Ω: how fast the Earth spins, once a day",
+     "f: how fast the ground turns around the vertical, where you stand"
+    ],
+    "foot": "a hurricane borrows this spin"
+   },
+   "text": "A hurricane is air spinning around a centre of low pressure. The spin has to come from somewhere, and it comes from the planet. The Earth turns once a day, and wherever you stand, the ground under you is slowly turning around the vertical line through your feet. How fast depends on latitude. Meteorologists call it the Coriolis parameter, f: twice the Earth's spin, times the sine of the latitude.",
+   "visual": "equation card"
+  },
+  {
+   "id": "b08",
+   "chapter": "2 · Borrowed spin",
+   "scene": "fcurve",
+   "p": {
+    "marks": [
+     30,
+     15,
+     5,
+     0
+    ]
+   },
+   "text": "Here is that spin, from 40 degrees south to 40 north. At 30 degrees, the ground turns once every 48 hours. At 15 degrees, once every 92. At 5 degrees, once in 275 hours. And at the equator it does not turn at all. North of the line it turns anticlockwise, south of it clockwise.",
+   "visual": "curve of f against latitude, crossing zero at the equator"
+  },
+  {
+   "id": "b09",
+   "chapter": "2 · Borrowed spin",
+   "scene": "hbars",
+   "p": {
+    "head": "wind 50 km from the centre, if air drawn in from 500 km kept all the spin it borrowed · no friction, an upper limit",
+    "rows": [
+     {
+      "label": "0°, equator",
+      "value": 0.0,
+      "txt": "0 m/s",
+      "col": "#d9552c"
+     },
+     {
+      "label": "1.5°",
+      "value": 9.4,
+      "txt": "9 m/s",
+      "col": "#1f6f8b"
+     },
+     {
+      "label": "5°",
+      "value": 31.5,
+      "txt": "32 m/s",
+      "col": "#1f6f8b"
+     },
+     {
+      "label": "10°",
+      "value": 62.7,
+      "txt": "63 m/s",
+      "col": "#1f6f8b"
+     },
+     {
+      "label": "15°",
+      "value": 93.4,
+      "txt": "93 m/s",
+      "col": "#0f3f52"
+     },
+     {
+      "label": "20°",
+      "value": 123.5,
+      "txt": "124 m/s",
+      "col": "#0f3f52"
+     }
+    ],
+    "max": 130,
+    "foot": "the same rule that speeds up a skater pulling in her arms"
+   },
+   "text": "That slow turn is enough. Air pulled in toward a low-pressure centre speeds up as it gets closer, like a skater pulling in her arms. Bring air in from 500 kilometres to 50, and at 15 degrees it could reach 93 metres a second, if nothing slowed it down. At 5 degrees, 32. At the equator, the answer is zero. There is no spin to borrow, so there is nothing to speed up.",
+   "visual": "bars: maximum spin-up by latitude; the equator bar is empty"
+  },
+  {
+   "id": "b10",
+   "chapter": "2 · Borrowed spin",
+   "scene": "statement",
+   "p": {
+    "lines": [
+     "A hurricane runs on borrowed spin.",
+     "At the equator,",
+     "the planet lends none."
+    ],
+    "accent": [
+     2
+    ]
+   },
+   "text": "A hurricane runs on borrowed spin, and at the equator the planet lends none. That is the idea. Now let's test it.",
+   "visual": "statement"
+  },
+  {
+   "id": "b11",
+   "chapter": "3 · The simulation",
+   "scene": "equation",
+   "p": {
+    "label": "what the simulation does",
+    "eq": "a dip, released at rest",
+    "where": [
+     "a layer of air with a dip in it: low pressure",
+     "the same equations as the tsunami episode, plus the spin f"
+    ],
+    "foot": "run at 0, 1.5, 5, 10, 15 and 20 degrees"
+   },
+   "text": "I wrote a simulation of a layer of air on a spinning planet. In the middle I made a dip: a patch of low pressure, six hundred kilometres wide, with no wind at all. Then I let it go, at six different latitudes, and watched for four days.",
+   "visual": "equation card"
+  },
+  {
+   "id": "b12",
+   "chapter": "3 · The simulation",
+   "scene": "dipsim",
+   "p": {
+    "lats": [
+     0,
+     15
+    ]
+   },
+   "text": "At the equator, air rushes in to fill the dip, and the dip spreads out as waves and disappears. After four days there is nothing left: the air is flat again, and there is no wind. At 15 degrees, the same dip does something different. The incoming air is turned sideways by the spin, and starts to circle. The circling wind holds part of the dip in place. After four days, 14 percent of it is still there.",
+   "visual": "two cross-sections of the air layer, 0 and 15 degrees, over four days"
+  },
+  {
+   "id": "b13",
+   "chapter": "3 · The simulation",
+   "scene": "hbars",
+   "p": {
+    "head": "how much of the dip was still there after 4 days · simulated (bars) and the textbook formula (black ticks)",
+    "rows": [
+     {
+      "label": "0°",
+      "value": 0,
+      "txt": "0%",
+      "col": "#d9552c"
+     },
+     {
+      "label": "1.5°",
+      "value": 0.18,
+      "txt": "0.2%",
+      "col": "#1f6f8b"
+     },
+     {
+      "label": "5°",
+      "value": 2.64,
+      "txt": "3%",
+      "col": "#1f6f8b"
+     },
+     {
+      "label": "10°",
+      "value": 8.27,
+      "txt": "8%",
+      "col": "#1f6f8b"
+     },
+     {
+      "label": "15°",
+      "value": 13.91,
+      "txt": "14%",
+      "col": "#1f6f8b"
+     },
+     {
+      "label": "20°",
+      "value": 21.01,
+      "txt": "21%",
+      "col": "#1f6f8b"
+     }
+    ],
+    "ticks": [
+     0.0,
+     0.37,
+     2.68,
+     7.59,
+     13.19,
+     18.84
+    ],
+    "max": 25,
+    "foot": "the simulation and the formula for a spinning layer agree"
+   },
+   "text": "Here are all six runs. Nothing at the equator. 0.2 percent at one and a half degrees, about 3 percent at 5, 8 at 10, 14 at 15 and 21 at 20. The black ticks are the textbook formula for a spinning layer, and the simulation lands on them. The closer to the equator, the less the planet can hold.",
+   "visual": "bars of dip kept by latitude with theory ticks"
+  },
+  {
+   "id": "b14",
+   "chapter": "3 · The simulation",
+   "scene": "hemispin",
+   "p": {
+    "foot": "the spin a storm borrows changes sign at the line"
+   },
+   "text": "The simulation shows one more thing. In the north the wind circles anticlockwise. South of the equator f is negative, and the same equations turn the wind the other way: clockwise. Every hurricane in the north turns one way and every cyclone in the south turns the other, because the spin they borrow changes sign at the equator.",
+   "visual": "two spirals: anticlockwise north, clockwise south, the equator between"
+  },
+  {
+   "id": "b15",
+   "chapter": "4 · The closest storms",
+   "scene": "table",
+   "p": {
+    "head": "closest any storm came to the equator at tropical-storm strength · NOAA IBTrACS",
+    "hdr": [
+     "storm",
+     "year",
+     "closest",
+     "wind"
+    ],
+    "cols": [
+     0,
+     420,
+     640,
+     960
+    ],
+    "rows": [
+     [
+      "Agni",
+      2004,
+      "0.7°N",
+      "35 kt"
+     ],
+     [
+      "Vamei",
+      2001,
+      "1.5°N",
+      "35 kt"
+     ],
+     [
+      "Sarah",
+      1956,
+      "2.2°N",
+      "35 kt"
+     ],
+     [
+      "unnamed",
+      2024,
+      "2.2°S",
+      "40 kt"
+     ],
+     [
+      "Alice",
+      1979,
+      "2.5°N",
+      "34 kt"
+     ],
+     [
+      "Peipah",
+      2014,
+      "2.6°N",
+      "35 kt"
+     ]
+    ],
+    "hl": [
+     0,
+     1
+    ],
+    "foot": "one point every 3 to 6 hours along each track"
+   },
+   "text": "So which storms came closest? Top of the list is Cyclone Agni, in the Arabian Sea in 2004, at 0.7 degrees north. Then Typhoon Vamei, 2001, at 1.5 degrees. A few others came within three degrees, on both sides. None of them crossed.",
+   "visual": "table of the six closest storms",
+   "say": "So which storms came closest? Top of the list is Cyclone Agni, in the Arabian Sea in 2004, at 0.7 degrees north. Then Typhoon Vah-may, 2001, at 1.5 degrees. A few others came within three degrees, on both sides. None of them crossed."
+  },
+  {
+   "id": "b16",
+   "chapter": "4 · The closest storms",
+   "scene": "agnitrack",
+   "p": {
+    "foot": "it only grew strong as it moved away from the equator"
+   },
+   "text": "Here is Agni's track from the US military's Joint Typhoon Warning Center. It drifted south and west until it was about 78 kilometres from the equator, with winds of 35 knots. Then it turned north. And only as it moved away from the equator did it strengthen, to 65 knots, hurricane strength, by about 3 degrees north. India's weather service puts its birth a little further north, near one and a half degrees.",
+   "visual": "Agni's track, coloured by wind; closest point marked"
+  },
+  {
+   "id": "b17",
+   "chapter": "4 · The closest storms",
+   "scene": "quote",
+   "p": {
+    "lines": [
+     "…a combination of topography and meteorology,",
+     "rather than Earth's rotation",
+     "helped jump start the cyclone."
+    ],
+    "hl": [
+     1
+    ],
+    "src": "NASA Earth Observatory, “A Rare Cyclone on the Equator” (2003), on Typhoon Vamei",
+    "src_short": "NASA",
+    "foot": "a monsoon surge squeezed between Malaysia and Borneo"
+   },
+   "text": "Vamei is the other famous exception. According to NASA, a combination of topography and meteorology, rather than Earth's rotation, helped jump start it: a blast of monsoon air squeezed between Malaysia and Borneo gave it the spin the planet could not. The researchers put the odds of that happening again at about once every 100 to 400 years.",
+   "visual": "NASA quote card",
+   "say": "Vah-may is the other famous exception. According to NASA, a combination of topography and meteorology, rather than Earth's rotation, helped jump start it: a blast of monsoon air squeezed between Malaysia and Borneo gave it the spin the planet could not. The researchers put the odds of that happening again at about once every 100 to 400 years."
+  },
+  {
+   "id": "b18",
+   "chapter": "5 · Why not across?",
+   "scene": "fcurve",
+   "p": {
+    "marks": [
+     5,
+     0,
+     -5
+    ],
+    "head": "a storm drifting toward the equator: its source of spin shrinks to zero, then reverses"
+   },
+   "text": "Now imagine a storm that does reach the line. Its spin came from the planet, and that supply shrinks to nothing as it approaches. One step further, and the planet pushes spin the other way. To survive, it would have to stop and spin up the other way, and near the equator there is almost nothing to spin up with.",
+   "visual": "the f curve again, marks either side of zero"
+  },
+  {
+   "id": "b19",
+   "chapter": "5 · Why not across?",
+   "scene": "statement",
+   "p": {
+    "lines": [
+     "There is no wall at the equator.",
+     "There is just no spin to borrow,",
+     "and storms drift away from it."
+    ],
+    "accent": [
+     1
+    ],
+    "sub": "the drift has a name: beta drift"
+   },
+   "text": "There is also a push. Because the planet's spin changes with latitude, a spinning storm tends to drift away from the equator on its own, toward the pole, an effect meteorologists call beta drift. So storms are nudged away from the line, and the few that wander close have no spin to keep going.",
+   "visual": "statement"
+  },
+  {
+   "id": "b20",
+   "chapter": "5 · Why not across?",
+   "scene": "trackmap",
+   "p": {
+    "band": true,
+    "head": "the same 8,457 storms · the band within 5 degrees of the equator"
+   },
+   "text": "Which is exactly the picture we started with: storms on both sides, and a thin empty band in the middle that none of the 8,457 has crossed.",
+   "visual": "the full map again with the band"
+  },
+  {
+   "id": "b20a",
+   "chapter": "6 · Where and when",
+   "scene": "hbars",
+   "p": {
+    "head": "storms that reached tropical-storm strength, by the ocean basin where they did · NOAA IBTrACS, 1851 to 2026",
+    "rows": [
+     {
+      "label": "western Pacific",
+      "value": 2223,
+      "txt": "2,223",
+      "col": "#1f6f8b"
+     },
+     {
+      "label": "North Atlantic",
+      "value": 2031,
+      "txt": "2,031",
+      "col": "#1f6f8b"
+     },
+     {
+      "label": "south Indian",
+      "value": 1416,
+      "txt": "1,416",
+      "col": "#d9552c"
+     },
+     {
+      "label": "eastern Pacific",
+      "value": 1179,
+      "txt": "1,179",
+      "col": "#1f6f8b"
+     },
+     {
+      "label": "south Pacific",
+      "value": 834,
+      "txt": "834",
+      "col": "#d9552c"
+     },
+     {
+      "label": "north Indian",
+      "value": 773,
+      "txt": "773",
+      "col": "#1f6f8b"
+     },
+     {
+      "label": "South Atlantic",
+      "value": 1,
+      "txt": "1",
+      "col": "#d9552c"
+     }
+    ],
+    "max": 2600,
+    "lh": 92,
+    "step": 0.08,
+    "foot": "blue: north of the equator · red: south"
+   },
+   "text": "Here is where those storms form, counted basin by basin. The western Pacific has 2,223. The North Atlantic, 2,031. The south Indian Ocean, 1,416. The eastern Pacific, 1,179. The south Pacific, 834, and the north Indian Ocean, 773. And the South Atlantic: 1.",
+   "visual": "bars of storm counts by basin"
+  },
+  {
+   "id": "b20b",
+   "chapter": "6 · Where and when",
+   "scene": "ec02_months",
+   "p": {},
+   "text": "Since 1980, the era of routine satellite coverage, 69 percent of storms formed north of the equator. And look at when. North of the line, the busiest months are August and September. South of it, January and February. Each hemisphere has its storm season in its own summer, so the equator is also the line where the storm calendar flips by six months.",
+   "visual": "monthly counts, north and south"
+  },
+  {
+   "id": "b20c",
+   "chapter": "6 · Where and when",
+   "scene": "quote",
+   "p": {
+    "lines": [
+     "The National Hurricane Center in Miami estimated the storm",
+     "was a category I hurricane (named Catarina), making it",
+     "the first hurricane in the South Atlantic in the satellite record."
+    ],
+    "hl": [
+     2
+    ],
+    "src": "NASA Earth Observatory, “A Rare Tropical Storm in the South Atlantic” (2024)",
+    "src_short": "NASA",
+    "foot": "the archive marks two later South Atlantic systems, 2010 and 2011, as disturbances"
+   },
+   "text": "That single South Atlantic storm is Catarina, which struck southern Brazil in March 2004. NASA calls it the first hurricane in the South Atlantic in the satellite record. The archive holds two later South Atlantic systems, from 2010 and 2011, that reached 45 knots, but it labels them as disturbances, so my count leaves them out, and NASA describes a few more weak storms there since. Either way, the South Atlantic is one of the quietest oceans for storms on the planet.",
+   "visual": "NASA quote card"
+  },
+  {
+   "id": "b21",
+   "chapter": "Limits",
+   "scene": "bullets",
+   "p": {
+    "head": "Limits",
+    "numbered": true,
+    "items": [
+     "The simulation is dry air with no thunderstorms",
+     "Real storms also need warm sea and still air above",
+     "The record is thin before satellites: 'never' means never recorded"
+    ]
+   },
+   "text": "The limits. My simulation is a layer of dry air. It has no thunderstorms, no warm sea, no winds that tear storms apart, all things real hurricanes depend on. It shows only the one ingredient that vanishes at the equator. And the archive is thin before weather satellites, in the 1960s, so never means never recorded.",
+   "visual": "numbered limits"
+  },
+  {
+   "id": "b22",
+   "chapter": "Three things",
+   "scene": "bullets",
+   "p": {
+    "head": "Three things",
+    "numbered": true,
+    "items": [
+     "A hurricane's spin is borrowed from the planet",
+     "At the equator the planet lends none",
+     "Of 13,635 recorded storm systems, none crossed"
+    ]
+   },
+   "text": "Three things. A hurricane's spin is borrowed from the planet. At the equator, the planet lends none, which is why storms almost never form there. And of 13,635 storm systems on record, not one has crossed.",
+   "visual": "numbered summary"
+  },
+  {
+   "id": "b23",
+   "chapter": "",
+   "scene": "endcard",
+   "p": {
+    "next_label": "Next on Earth Worked Out",
+    "next": [
+     "Why hail can grow bigger",
+     "than a baseball"
+    ]
+   },
+   "text": "This is Earth Worked Out: real physics, run on screen. The storm analysis and the simulation code are linked below. Next time: why hail can grow bigger than a baseball.",
+   "visual": "end card with space for YouTube end-screen elements"
+  }
+ ]
+}

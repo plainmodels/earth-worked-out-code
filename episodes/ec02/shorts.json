@@ -1,0 +1,17 @@
+[
+ {"id": "short1_never", "title": "No hurricane has ever been recorded crossing the equator. I checked 13,635",
+  "head": ["8,457 storms.", "None crossed this line."], "beats": ["b01", "b02"], "sx": 20, "sw": 1880,
+  "tag": "Full video: why hurricanes never cross the equator",
+  "thumb": {"big": ["0 STORMS", "CROSSED"], "small": "every track in NOAA's archive", "beat": "b02", "at": 0.9},
+  "description": "Every tropical storm in NOAA's IBTrACS archive, 1851 to November 2026: 8,457 reached tropical-storm strength, and of 13,635 storm systems none has a recorded position on both sides of the equator. From the full video on Earth Worked Out. #hurricane #science #weather"},
+ {"id": "short2_dip", "title": "Same low pressure, two latitudes: only one keeps spinning",
+  "head": ["Same dip in the air.", "Only one survives."], "beats": ["b12", "b13"], "sx": 20, "sw": 1880,
+  "tag": "Full video: why hurricanes never cross the equator",
+  "thumb": {"big": ["EQUATOR: 0%", "15°: 14%"], "small": "a spinning-planet simulation", "beat": "b12", "at": 0.9},
+  "description": "A simulation of a layer of air on a spinning planet: the same 600 km dip of low pressure, released at rest. At the equator it spreads out and vanishes; at 15 degrees the Earth's spin holds 14% of it after four days. The textbook formula agrees. From the full video on Earth Worked Out. #hurricane #physics #science"},
+ {"id": "short3_agni", "title": "The storm that came 78 km from the equator, then turned back",
+  "head": ["78 km from the equator.", "Then it turned back."], "beats": ["b15", "b16"], "sx": 20, "sw": 1880,
+  "tag": "Full video: why hurricanes never cross the equator",
+  "thumb": {"big": ["78 km", "FROM THE LINE"], "small": "Cyclone Agni, 2004", "beat": "b16", "at": 0.9},
+  "description": "Cyclone Agni, November 2004: the US Joint Typhoon Warning Center track in NOAA IBTrACS puts it at 0.7 degrees north with 35-knot winds, about 78 km from the equator. It turned north and only reached 65 knots as it moved away. From the full video on Earth Worked Out. #cyclone #hurricane #science"}
+]
