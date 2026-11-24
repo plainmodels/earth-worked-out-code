@@ -3,15 +3,15 @@
   "head": ["The water reaches the beach.", "Can you outrun it?"], "beats": ["b01", "b14"], "sx": 20, "sw": 1880,
   "tag": "Full video: how fast would you need to run to escape a tsunami?",
   "thumb": {"big": ["OUTRUN A", "TSUNAMI?"], "small": "a real simulation", "beat": "b01", "at": 0.6},
-  "description": "A 1D simulation of a 2 m tsunami reaching an idealised coast. On land the water front moved at about 30 km/h over the first 500 m. Walker, jogger and hard runner starting at the water's edge are overtaken within about a second; only Usain Bolt's top speed (12.32 m/s) stays ahead. Model, not a forecast. From the full video on Earth Worked Out. #tsunami #science #physics"},
+  "description": "A 1D simulation of a 2 m tsunami reaching an idealised coast. On land the water front moved at about 30 km/h over the first 500 m. Walker, jogger and hard runner starting at the water's edge are overtaken within about a second; only Usain Bolt's top speed (12.32 m/s) stays ahead. Model, not a forecast. From the full video on Earth Worked Out. #tsunami #science #physics\n\nSubscribe: https://www.youtube.com/@EarthWorkedOut?sub_confirmation=1"},
  {"id": "short2_headstart", "title": "A 100 m head start on a tsunami is not enough",
   "head": ["100 m head start.", "Still caught."], "beats": ["b15", "b17"], "sx": 20, "sw": 1880,
   "tag": "Full video: how fast would you need to run to escape a tsunami?",
   "thumb": {"big": ["100 m AHEAD", "STILL CAUGHT"], "small": "the head start is the whole game", "beat": "b15", "at": 0.85},
-  "description": "Same simulated tsunami, but you start 100 m up the beach: a jogger is caught after 17 s, a hard runner after 29 s, a 25 km/h sprinter after about a minute. To stay ahead all the way from the water's edge a walker needs a 13 min 24 s head start. Model, not a forecast. From the full video on Earth Worked Out. #tsunami #science #physics"},
+  "description": "Same simulated tsunami, but you start 100 m up the beach: a jogger is caught after 17 s, a hard runner after 29 s, a 25 km/h sprinter after about a minute. To stay ahead all the way from the water's edge a walker needs a 13 min 24 s head start. Model, not a forecast. From the full video on Earth Worked Out. #tsunami #science #physics\n\nSubscribe: https://www.youtube.com/@EarthWorkedOut?sub_confirmation=1"},
  {"id": "short3_drawback", "title": "When the sea drains away, a tsunami may be minutes away",
   "head": ["If the sea drains away,", "you may have minutes."], "beats": ["b18", "b19"], "sx": 20, "sw": 1880,
   "tag": "Full video: how fast would you need to run to escape a tsunami?",
   "thumb": {"big": ["THE SEA", "VANISHED"], "small": "a natural tsunami warning", "beat": "b18", "at": 0.8},
-  "description": "In a trough-first run of my simulation the sea drew back 88 m and stayed out about 6 minutes before flooding the land. The US National Weather Service lists the ocean draining away, a strong or long earthquake, or a loud roar as natural warnings: a tsunami could arrive within minutes, so go to high ground or inland. Source: weather.gov/safety/tsunami-during. From the full video on Earth Worked Out. #tsunami #science #safety"}
+  "description": "In a trough-first run of my simulation the sea drew back 88 m and stayed out about 6 minutes before flooding the land. The US National Weather Service lists the ocean draining away, a strong or long earthquake, or a loud roar as natural warnings: a tsunami could arrive within minutes, so go to high ground or inland. Source: weather.gov/safety/tsunami-during. From the full video on Earth Worked Out. #tsunami #science #safety\n\nSubscribe: https://www.youtube.com/@EarthWorkedOut?sub_confirmation=1"}
 ]
